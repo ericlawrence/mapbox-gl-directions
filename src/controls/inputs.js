@@ -47,7 +47,7 @@ export default class Inputs {
         features: [origin, destination]
       });
 
-      this._map.fitBounds([[bb[0], bb[1]], [bb[2], bb[3]]], {padding: routePadding});
+      // this._map.fitBounds([[bb[0], bb[1]], [bb[2], bb[3]]], {padding: routePadding});
     } else {
       this._map.flyTo({ center: coords });
     }
